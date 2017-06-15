@@ -95,23 +95,73 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* PAGE D'ACCUEIL */
 
+header
+{
+    height: 100vh;
+    background-color: green;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
+header article
+{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    background-color: rgba(255, 255, 255, .7);
+    margin-top: 20vh;
+    color: white;
+}
 
+header i
+{
+    color: white;
+}
 
+/* Articles sur les technologies */
 
+.grand figure
+{
+    width: 95%;
+    margin: auto;
+    margin-top: 1em;
+    padding-top: 1em;
+}
 
+img
+{
+    width: 100%;
+}
 
+.main section
+{
+    width: 95%;
+    margin: auto;
+}
+.main section:nth-child(1)
+{
+    background-color: red;
+}
 
+.main section:nth-child(2)
+{
+    background-color: blue;
+}
 
+.main section:nth-child(3)
+{
+    background-color: yellow;
+}
 
-
-
-
-
-
-
-
+.petit a
+{
+    text-align: center;
+}
 
 
 
