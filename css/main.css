@@ -95,13 +95,23 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+
+
+
+
+
+
+
+
+/* - - - - - - - - - -  PAGE ACCUEIL - - - - - - - - */
+
 /* PAGE D'ACCUEIL */
-body
+.principal
 {
-    background-color: #F7F7EF;
+    background-color: #CBDAE3;
 }
 
-header
+.blog
 {
     height: 100vh;
     background-color: #CBDAE3;
@@ -112,34 +122,57 @@ header
     align-items: center;
 }
 
-header article
+.blog article
 {
     text-align: center;
-    width: 60%;
+    width: 100%;
     margin: auto;
     background-color: #D9CE00/*rgba(255, 255, 255, .7)*/;
-    margin-top: 18vh;
     color: #F7F7EF;
     padding: 3em;
 }
 
-header article h3
+.blog div
+{
+    border: 2px solid transparent;
+    width: 85%;
+    margin: auto;
+    padding: 1em;
+}
+
+.blog article h3
 {
     font-family: 'Arvo', serif;
+    font-size: 30px;
+
 }
 
-header article h1
+.blog article h1
 {
     font-family: 'Patua One', cursive;
-    font-size: 70px;
+    font-size: 50px;
 }
 
-header i
+ .suite h2, .suite h3
+ {
+    font-family: 'Patua One', cursive;
+
+ }
+
+.blog i
 {
     color: #F7F7EF;
 }
 
-/* Articles sur les technologies */
+
+
+
+
+
+
+
+
+/* DEBUT DES ARTICLES */
 .grand figure
 {
     width: 95%;
@@ -172,7 +205,7 @@ img
 
 .main section:nth-child(3)
 {
-    background-color: #22387B;
+    background-color: #565B7B;
 }
 
 .petit
@@ -195,13 +228,17 @@ img
 .contact
 {
     margin-top: 2em;
+    color: white;
+
 }
 
 
-footer
+footer, footer i
 {
     text-align: center;
     font-size: 2em;
+    color: white;
+    padding: 1em;
 }
 
 
@@ -211,6 +248,7 @@ footer
 }
 
 
+/* - - - - - - - - FIN DE LA PAGE D'ACCUEIL - - - - - - - - */
 
 
 
@@ -224,18 +262,103 @@ footer
 
 
 
+/* - - - - - - - - PAGE EN SAVOIR PLUS - - - - - - - - -*/
+
+.suite
+{
+    background-size: cover;
+    background-attachment: fixed;
+}
+.suite1
+{
+    background-image: url(../img/art-hover.png);
+}
+
+.suite2
+{
+    background-image: url(../img/art-stores.png);
+}
+
+.suite3
+{
+    background-image: url(../img/art-pendentif.png);
+
+}
+
+.suite h2
+{
+    color: #ADA915;
+    font-size: 3em;
+    margin-top: 1em;
+}
+.suite h3
+{
+    color: #D7D36C;
+    line-height: 1.5em;
+    margin-top: 1em;
+}
+
+.suite p
+{
+    font-family: 'Arvo', serif;
+    margin-top: 3em;
+    line-height: 30px;
+
+}
+
+.plus figure
+{
+    width: 100%;
+    margin: auto;
+}
+
+.description
+{
+    margin: auto;
+    text-align: center;
+    margin-top: 3em;
+    background-color: #79BBBA;
+    width: 90%;
+    padding: .5em;
+    margin-bottom: 3em;
+}
+
+.description article a
+{
+    color: #F7F7EF;
+}
+
+.texte
+{
+    width: 90%;
+    margin: auto;
+}
+
+.illu
+{
+    width: 100%;
+    margin: auto;
+}
+
+.retour a
+{
+/*    width: 70px;
+    margin: auto;*/
+    color: #486855;
+    text-align: center;
+    letter-spacing: 5px;
+}
+.retour
+{
+
+width: 150px;
+margin: auto;
+}
+
+/* - - - - - - - - FIN DE LA PAGE EN SAVOIR PLUS - - - - - - - - -*/
 
 
-
-
-
-
-
-
-
-
-
-@media (min-width: 768px) {
+@media (min-width: 801px) {
 .tablette
 {
     display: block;
@@ -244,6 +367,23 @@ footer
 {
     display: none;
 }
+
+.principal, .blog
+{
+    background-image: url(../img/header.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.blog article
+{
+    background-color: transparent;
+}
+/*.blog div
+{
+    margin-top: 5em;
+}*/
 
 .main
 {
@@ -284,11 +424,9 @@ footer
 
 .main section
 {
-    width: 90%;
+    width: 95%;
     margin: auto;
     padding-bottom: 0;
-   /* margin-bottom: 1em;
-    margin-top: 2em;*/*/
 }
 
 
