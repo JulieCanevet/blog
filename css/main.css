@@ -248,6 +248,7 @@ footer, footer i
 }
 
 
+
 /* - - - - - - - - FIN DE LA PAGE D'ACCUEIL - - - - - - - - */
 
 
@@ -432,7 +433,11 @@ margin: auto;
 
 
 
-
+/*figure p
+{
+    position: absolute;
+    z-index: 3;
+}*/
 
 
 
