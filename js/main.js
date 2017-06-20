@@ -32,18 +32,25 @@ document.getElementById("onverra").innerHTML = "Vous vous êtes conecté le "+jo
 var sec = 57;
 var minute = 0;
 
-	setInterval("mafonction()", 1000);
+setInterval("mafonction()", 1000);
+	
 	function mafonction(){
 
 	if (sec<60){
 		document.getElementById("timmer").innerHTML = sec;
-		sec++;
+		sec ++;
 	}
-	else{
+	else {
+
 	
-		minute++;
+		minute ++;
 		sec = 0;
-		document.getElementById("minute").innerHTML = minute + "min" + sec;
+
+		document.getElementById("minute").innerHTML = minute + "min";
+		document.getElementById("timmer").innerHTML = sec;
+
+		sec = 1;
+
 
 	}
 
