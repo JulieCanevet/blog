@@ -433,11 +433,12 @@ margin: auto;
 
 
 
-/*figure p
+figure p
 {
-    position: absolute;
-    z-index: 3;
-}*/
+    color: white;
+    text-align: center;
+    letter-spacing: 6px;
+}
 
 
 

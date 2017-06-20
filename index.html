@@ -33,9 +33,9 @@
 <section class="main">
 
     <section class="grand">
-        <figure>
-        <p id="text"> </p>
-        <img src="img/capt.png" alt="technologies">
+        <figure onmouseover="document.getElementById('div1').style.display = 'block';" onmouseout="document.getElementById('div1').style.display = 'none';">
+   <p id="div1" style="display: none;">Text</p>
+            <img src="img/capt.png" alt="hoverboard">
         </figure>
 
         <article class="petit">
@@ -52,9 +52,10 @@
             <a href="article2.html">En savoir plus</a>
         </article>
 
-        <figure>
-        <p class="text"></p>
-        <img src="img/stores.jpg" alt="technologies">
+        <figure onmouseover="document.getElementById('div2').style.display = 'block';" onmouseout="document.getElementById('div2').style.display = 'none';">
+        
+        <p id="div2" style="display: none;">Text</p>
+        <img src="img/stores.jpg" alt="stores solaires">
         </figure>
 
         <article class="petit phone">
@@ -65,8 +66,9 @@
     </section>
 
     <section class="grand">
-        <figure>
-        <img src="img/pendentif.jpeg" alt="technologies">
+        <figure onmouseout="document.getElementById('div3').style.display='none';" onmouseover="document.getElementById('div3').style.display='block';"">
+        <p id="div3" style="display: none;">Text</p>
+        <img src="img/pendentif.jpeg" alt="pendentif conecté">
         </figure>
 
         <article class="petit">
@@ -113,7 +115,7 @@
             <!-- Form actions -->
             <div class="form-group">
               <div class="col-md-12 text-right">
-                <button type="submit" class="btn btn-primary btn-lg">Envoyer</button>
+                <button type="submit" id="confirmer" class="btn btn-primary btn-lg">Envoyer</button>
               </div>
             </div>
           </fieldset>

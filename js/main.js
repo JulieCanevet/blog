@@ -1,21 +1,3 @@
-
-
-var img = document.getElementsByTagName("img");
-// var text = document.getElementsByClassName("text");  
-var text = document.getElementById("text");
-
-for (var i = 0; i < img.length; i++) {
-  img[i].addEventListener("mouseover", function() {
-    var alt = this.alt;
-    text.textContent = alt;
-  });
-  img[i].addEventListener("mouseleave", function() {
-    text.textContent = '';
-  });
-}
-
-
-
 // Affichage de la date
 
 var date = new Date();
@@ -40,6 +22,7 @@ setInterval("mafonction()", 1000);
 		document.getElementById("timmer").innerHTML = sec;
 		sec ++;
 	}
+
 	else {
 
 	
@@ -50,11 +33,33 @@ setInterval("mafonction()", 1000);
 		document.getElementById("timmer").innerHTML = sec;
 
 		sec = 1;
-
-
 	}
 
 }
+
+// Demander confirmation pour le formulaire
+ document.getElementById('confirmer').onclick=function(){confirm("Voulez-vous continuer ?");};
+
+
+
+// Afficher le Alt
+
+var mesimages = document.getElementsByTagName("img");
+
+for (var i = 0; i < mesimages.length; i++) {
+ 
+  mesimages[i].addEventListener ("mouseover", function() {
+    var alt = this.alt;
+    div1.textContent = alt;
+    div2.textContent = alt;
+    div3.textContent = alt;
+  });
+}
+
+
+
+
+
 
 
 
