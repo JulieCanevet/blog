@@ -11,7 +11,7 @@ document.getElementById("onverra").innerHTML = "Vous vous êtes conecté le "+jo
 
 
 // Afficher le temps de conexion
-var sec = 57;
+var sec = 1;
 var minute = 0;
 
 setInterval("mafonction()", 1000);
@@ -38,7 +38,8 @@ setInterval("mafonction()", 1000);
 }
 
 // Demander confirmation pour le formulaire
- document.getElementById('confirmer').onclick=function(){confirm("Voulez-vous continuer ?");};
+ document.getElementById('confirmer').onclick=function()
+ {confirm("Voulez-vous continuer ?");};
 
 
 
@@ -57,10 +58,44 @@ for (var i = 0; i < mesimages.length; i++) {
 }
 
 
+// Tableau interactif
+
+// var t=['nom', 'age', 'natio'];
+// for (var i =0, i<t.length; i++) {
+// 	onclick="show()";
+// }
+
+function show(){
+	document.getElementById('nom').style.visibility = 'visible';
+	document.getElementById('age').style.visibility = 'collapse';
+	document.getElementById('natio').style.visibility = 'collapse';
+	document.getElementById('titre').style.backgroundColor = 'lightgrey';
+	document.getElementById('titre1').style.backgroundColor = 'orange';
+	document.getElementById('titre2').style.backgroundColor = 'orange';
 
 
 
+}
 
+function show1(){
+	document.getElementById('nom').style.visibility = 'collapse';
+	document.getElementById('age').style.visibility = 'visible';
+	document.getElementById('natio').style.visibility = 'collapse';
+	document.getElementById('titre1').style.backgroundColor = 'lightgrey';
+	document.getElementById('titre').style.backgroundColor = 'orange';
+	document.getElementById('titre2').style.backgroundColor = 'orange';
+
+}
+
+function show2(){
+	document.getElementById('nom').style.visibility = 'collapse';
+	document.getElementById('age').style.visibility = 'collapse';
+	document.getElementById('natio').style.visibility = 'visible';
+	document.getElementById('titre2').style.backgroundColor = 'lightgrey';
+	document.getElementById('titre1').style.backgroundColor = 'orange';
+	document.getElementById('titre').style.backgroundColor = 'orange';
+
+}
 
 
 

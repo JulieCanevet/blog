@@ -357,6 +357,45 @@ margin: auto;
 }
 
 /* - - - - - - - - FIN DE LA PAGE EN SAVOIR PLUS - - - - - - - - -*/
+table
+{
+    width: 70%;
+    margin: auto;
+}
+
+table th
+{
+    padding: 1em;
+    cursor: pointer;
+    background-color: orange;
+}
+
+table td
+{
+    background-color: lightgrey;
+    padding: 1em;
+
+}
+
+table tr
+{
+    width: 100%;
+    padding: 1em;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media (min-width: 801px) {
