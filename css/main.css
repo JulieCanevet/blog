@@ -108,7 +108,7 @@ textarea {
 /* PAGE D'ACCUEIL */
 .principal
 {
-    background-color: #CBDAE3;
+    background-color: #283054;
 }
 
 .blog
@@ -130,6 +130,7 @@ textarea {
     background-color: #D9CE00/*rgba(255, 255, 255, .7)*/;
     color: #F7F7EF;
     padding: 3em;
+    letter-spacing: 2.5px;
 }
 
 .blog div
@@ -153,17 +154,13 @@ textarea {
     font-size: 50px;
 }
 
- .suite h2, .suite h3
- {
-    font-family: 'Patua One', cursive;
-
- }
 
 .blog i
 {
     color: #F7F7EF;
 }
 
+/* FIN DE LA PAGE D'ACCUEIL */
 
 
 
@@ -216,23 +213,63 @@ img
     font-family: 'Arvo', serif;
 }
 
+.petit h2
+{
+    letter-spacing: 2.5px;
+}
 .petit a
 {
     border: 2px solid #D48D2B;
     color: #DCA50B;
     padding: 7px 15px;
     border-radius: 30px 30px;
+    letter-spacing: 2px;
 }
 
 
+
+
+/* Debut reglage formulaire contact */
 .contact
 {
     margin-top: 2em;
     color: white;
+}
 
+#confirmer
+{
+    background-color: #D9CE00;
+    border-color: #F6EA08;
+    letter-spacing: 2px;
+}
+legend
+{
+    font-family: 'Patua One', cursive;
+    letter-spacing: 3px;
 }
 
 
+
+
+
+/* - - - - - - MISE EN FORME DU TABLEAU - - - - - - - */
+table th
+{
+    padding: 1em;
+    cursor: pointer;
+    border: 1px solid black;
+    background-color: #565B7B;
+}
+
+table td
+{
+    background-color: #D9CE00;
+    padding: 1em;
+    border: 1px solid black;
+
+}
+
+/* - - - - - - - - - DEBUT DU FOOTER - - - - - - - */
 footer, footer i
 {
     text-align: center;
@@ -264,41 +301,52 @@ footer, footer i
 
 
 /* - - - - - - - - PAGE EN SAVOIR PLUS - - - - - - - - -*/
-
+/* Image de fond */
 .suite
 {
     background-size: cover;
     background-attachment: fixed;
 }
+
+/*Fond du premier lien*/
 .suite1
 {
     background-image: url(../img/art-hover.png);
 }
 
+/* Fond du deuxieme lien */
 .suite2
 {
     background-image: url(../img/art-stores.png);
 }
 
+/* Fond du troisieme lien */
 .suite3
 {
     background-image: url(../img/art-pendentif.png);
 
 }
 
+/* Reglage des titres des articles */
+.suite h2, .suite h3
+ {
+    font-family: 'Patua One', cursive;
+    margin-top: 1em;
+
+
+ }
 .suite h2
 {
     color: #ADA915;
     font-size: 3em;
-    margin-top: 1em;
 }
 .suite h3
 {
     color: #D7D36C;
     line-height: 1.5em;
-    margin-top: 1em;
 }
 
+/* Reglage des paragraphes des articles */
 .suite p
 {
     font-family: 'Arvo', serif;
@@ -307,11 +355,13 @@ footer, footer i
 
 }
 
+/* Petite image qui reprend le fond */
 .plus figure
 {
     width: 100%;
     margin: auto;
 }
+
 
 .description
 {
@@ -357,34 +407,6 @@ margin: auto;
 }
 
 /* - - - - - - - - FIN DE LA PAGE EN SAVOIR PLUS - - - - - - - - -*/
-table
-{
-    width: 70%;
-    margin: auto;
-}
-
-table th
-{
-    padding: 1em;
-    cursor: pointer;
-    background-color: orange;
-}
-
-table td
-{
-    background-color: lightgrey;
-    padding: 1em;
-
-}
-
-table tr
-{
-    width: 100%;
-    padding: 1em;
-
-
-}
-
 
 
 

@@ -60,44 +60,32 @@ for (var i = 0; i < mesimages.length; i++) {
 
 // Tableau interactif
 
-// var t=['nom', 'age', 'natio'];
-// for (var i =0, i<t.length; i++) {
-// 	onclick="show()";
-// }
-
 function show(){
 	document.getElementById('nom').style.visibility = 'visible';
 	document.getElementById('age').style.visibility = 'collapse';
 	document.getElementById('natio').style.visibility = 'collapse';
-	document.getElementById('titre').style.backgroundColor = 'lightgrey';
-	document.getElementById('titre1').style.backgroundColor = 'orange';
-	document.getElementById('titre2').style.backgroundColor = 'orange';
-
-
-
+	document.getElementById('titre').style.backgroundColor = '#D9CE00';
+	document.getElementById('titre1').style.backgroundColor = '#565B7B';
+	document.getElementById('titre2').style.backgroundColor = '#565B7B';
 }
 
 function show1(){
 	document.getElementById('nom').style.visibility = 'collapse';
 	document.getElementById('age').style.visibility = 'visible';
 	document.getElementById('natio').style.visibility = 'collapse';
-	document.getElementById('titre1').style.backgroundColor = 'lightgrey';
-	document.getElementById('titre').style.backgroundColor = 'orange';
-	document.getElementById('titre2').style.backgroundColor = 'orange';
-
+	document.getElementById('titre1').style.backgroundColor = '#D9CE00';
+	document.getElementById('titre').style.backgroundColor = '#565B7B';
+	document.getElementById('titre2').style.backgroundColor = '#565B7B';
 }
 
 function show2(){
 	document.getElementById('nom').style.visibility = 'collapse';
 	document.getElementById('age').style.visibility = 'collapse';
 	document.getElementById('natio').style.visibility = 'visible';
-	document.getElementById('titre2').style.backgroundColor = 'lightgrey';
-	document.getElementById('titre1').style.backgroundColor = 'orange';
-	document.getElementById('titre').style.backgroundColor = 'orange';
-
+	document.getElementById('titre2').style.backgroundColor = '#D9CE00';
+	document.getElementById('titre1').style.backgroundColor = '#565B7B';
+	document.getElementById('titre').style.backgroundColor = '#565B7B';
 }
-
-
 
 
 

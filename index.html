@@ -130,11 +130,12 @@
 <br>
 <p>Vous êtes conecté depuis  <span id="minute"></span><span id="timmer"></span> secondes</p>
 
-<table>
-<tr>
-   <th onclick="show(); color();" id="titre">Nom</th>
-   <th onclick="show1(); color();" id="titre1">Age</th>
-   <th onclick="show2(); color();" id="titre2">Nationalité</th> 
+<table class="container">
+<div class="row">
+<tr col-11 col-sm-10 col-md-9 col-lg-8>
+   <th onclick="show()" id="titre">Nom</th>
+   <th onclick="show1()" id="titre1">Age</th>
+   <th onclick="show2()" id="titre2">Nationalité</th> 
 </tr>
 
    <tr id="nom">
@@ -154,8 +155,8 @@
        <td>Française</td>
        <td>Americain</td>
    </tr>
+</div>
 </table>
-
 
 <footer>
     <article class="logo">
