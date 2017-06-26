@@ -101,8 +101,6 @@ textarea {
 
 
 
-
-
 /* - - - - - - - - - -  PAGE ACCUEIL - - - - - - - - */
 
 /* PAGE D'ACCUEIL */
@@ -182,7 +180,7 @@ img
     width: 100%;
 }
 
-.main section
+.cases section
 {
     width: 95%;
     margin: auto;
@@ -190,17 +188,17 @@ img
     margin-top: 1em;
 }
 
-.main section:nth-child(1)
+.cases section:nth-child(1)
 {
     background-color: #69A3A7;
 }
 
-.main section:nth-child(2)
+.cases section:nth-child(2)
 {
     background-color: #016F7B;
 }
 
-.main section:nth-child(3)
+.cases section:nth-child(3)
 {
     background-color: #565B7B;
 }
@@ -257,7 +255,7 @@ table th
 {
     padding: 1em;
     cursor: pointer;
-    border: 1px solid black;
+    border: 1px solid grey;
     background-color: #565B7B;
 }
 
@@ -265,9 +263,15 @@ table td
 {
     background-color: #D9CE00;
     padding: 1em;
-    border: 1px solid black;
+    border: 1px solid grey;
 
 }
+
+
+
+
+
+
 
 /* - - - - - - - - - DEBUT DU FOOTER - - - - - - - */
 footer, footer i
@@ -375,7 +379,7 @@ footer, footer i
     width: 90%;
     padding: .5em;
     margin-bottom: 3em;
-    background-image: linear-gradient(white, #658CAA);
+    background-image: linear-gradient(white, #25377B);
 
 }
 
@@ -452,7 +456,7 @@ margin: auto;
     margin-top: 5em;
 }*/
 
-.main
+.principal
 {
     margin-top: 2em;
 }
@@ -467,12 +471,12 @@ margin: auto;
     width: 100%;
 }
 
-.main section figure
+.principal section figure
 {
     width: 90%;
 }
 
-.main section:nth-child(2)
+.principal section:nth-child(2)
 {
     text-align: right;
 }
@@ -489,7 +493,7 @@ margin: auto;
     margin: 10px 10px;
 }
 
-.main section
+.principal section
 {
     width: 95%;
     margin: auto;
@@ -586,7 +590,7 @@ figure p
 }
 
 /*
- * Hide visually and from screen readers, but maintain layout
+ * Hide visually and from screen readers, but.principaltain layout
  */
 
 .invisible {

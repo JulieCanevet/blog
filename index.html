@@ -28,13 +28,13 @@
 <i class="fa fa-chevron-down fa-3x" aria-hidden="true"></i>
 </header>
 
-
-
 <section class="main">
+
+  <section class="cases">
 
     <section class="grand">
         <figure onmouseover="document.getElementById('div1').style.display = 'block';" onmouseout="document.getElementById('div1').style.display = 'none';">
-   <p id="div1" style="display: none;">Text</p>
+            <p id="div1" style="display: none;">Text</p>
             <img src="img/capt.png" alt="hoverboard">
         </figure>
 
@@ -133,31 +133,31 @@
 <table class="container">
 <div class="row">
 <tr col-11 col-sm-10 col-md-9 col-lg-8>
-   <th onclick="show()" id="titre">Nom</th>
-   <th onclick="show1()" id="titre1">Age</th>
-   <th onclick="show2()" id="titre2">Nationalité</th> 
+   <th onclick="show('nom')" class="titre" id="tinom">Nom</th>
+   <th onclick="show('age')" class="titre" id="tiage">Age</th>
+   <th onclick="show('natio')" class="titre" id="tinatio">Nationalité</th> 
 </tr>
 
-   <tr id="nom">
+   <tr id="catnom" class="liste">
        <td>Remi</td>
        <td>Rebecca</td>
        <td>Thomas</td>
    </tr>
 
-   <tr id="age" style="visibility: collapse">
+   <tr id="catage" class="liste" style="visibility: collapse">
        <td>25 ans</td>
        <td>24 ans</td>
        <td>26 ans</td>
    </tr>
 
-   <tr id="natio" style="visibility: collapse">
+   <tr id="catnatio" class="liste" style="visibility: collapse">
        <td>Belge</td>
        <td>Française</td>
        <td>Americain</td>
    </tr>
 </div>
 </table>
-
+</section>
 <footer>
     <article class="logo">
         <a href="https://twitter.com/julie_canett"><i class="fa fa-twitter" aria-hidden="true"></i></a>

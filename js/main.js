@@ -60,31 +60,23 @@ for (var i = 0; i < mesimages.length; i++) {
 
 // Tableau interactif
 
-function show(){
-	document.getElementById('nom').style.visibility = 'visible';
-	document.getElementById('age').style.visibility = 'collapse';
-	document.getElementById('natio').style.visibility = 'collapse';
-	document.getElementById('titre').style.backgroundColor = '#D9CE00';
-	document.getElementById('titre1').style.backgroundColor = '#565B7B';
-	document.getElementById('titre2').style.backgroundColor = '#565B7B';
-}
+function show(switchCat){
+	var alltr = document.getElementsByClassName('liste');
 
-function show1(){
-	document.getElementById('nom').style.visibility = 'collapse';
-	document.getElementById('age').style.visibility = 'visible';
-	document.getElementById('natio').style.visibility = 'collapse';
-	document.getElementById('titre1').style.backgroundColor = '#D9CE00';
-	document.getElementById('titre').style.backgroundColor = '#565B7B';
-	document.getElementById('titre2').style.backgroundColor = '#565B7B';
-}
+	for (var i=0; i < alltr.length; i++){
+		alltr[i].style.visibility = 'collapse';
+		}
+	document.getElementById('cat' + switchCat).style.visibility = 'visible';
 
-function show2(){
-	document.getElementById('nom').style.visibility = 'collapse';
-	document.getElementById('age').style.visibility = 'collapse';
-	document.getElementById('natio').style.visibility = 'visible';
-	document.getElementById('titre2').style.backgroundColor = '#D9CE00';
-	document.getElementById('titre1').style.backgroundColor = '#565B7B';
-	document.getElementById('titre').style.backgroundColor = '#565B7B';
+
+
+var allti = document.getElementsByClassName('titre');
+	for (var j=0; j<allti.length; j++){
+		allti[j].style.backgroundColor = '#565B7B';
+	}
+	
+	document.getElementById('ti' + switchCat).style.backgroundColor = '#D9CE00';
+
 }
 
 
