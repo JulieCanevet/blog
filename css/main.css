@@ -455,8 +455,8 @@ margin: auto;
 .principal
 {
     margin-top: 2em;
-    text-align: left;
 }
+
 .grand
 {
     display: flex;
@@ -476,6 +476,11 @@ margin: auto;
 .principal section:nth-child(2)
 {
     text-align: right;
+}
+
+.principal section:nth-child(1), .principal section:nth-child(3)
+{
+    text-align: left;
 }
 
 
