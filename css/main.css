@@ -451,14 +451,11 @@ margin: auto;
 {
     background-color: transparent;
 }
-/*.blog div
-{
-    margin-top: 5em;
-}*/
 
 .principal
 {
     margin-top: 2em;
+    text-align: left;
 }
 .grand
 {
@@ -480,6 +477,7 @@ margin: auto;
 {
     text-align: right;
 }
+
 
 .petit p, .petit h2
 {
